@@ -1,6 +1,8 @@
 {
   "name": "DogeUnblocker Dev Container",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-20",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "postCreateCommand": "npm install",
   "appPort": [3000],
   "forwardPorts": [3000],
