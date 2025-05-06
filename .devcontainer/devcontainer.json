@@ -1,0 +1,12 @@
+{
+  "name": "DogeUnblocker Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-20",
+  "postCreateCommand": "npm install",
+  "appPort": [3000],
+  "forwardPorts": [3000],
+  "customizations": {
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint"]
+    }
+  }
+}
