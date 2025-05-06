@@ -8,7 +8,9 @@
   "forwardPorts": [3000],
   "customizations": {
     "vscode": {
-      "extensions": ["dbaeumer.vscode-eslint"]
+      "extensions": [
+        "dbaeumer.vscode-eslint"
+      ]
     }
   }
 }
