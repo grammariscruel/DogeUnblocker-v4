@@ -3,7 +3,7 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "postCreateCommand": "npm install",
+  "postCreateCommand": "npm install -g pnpm",
   "appPort": [3000],
   "forwardPorts": [3000],
   "customizations": {
